@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+
+{% schema %}
+{
+    "name": "Featured Blog",
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "featured_blog_enabled",
+            "label": "Would you like to enable the featured blog?",
+            "default": false
+        },
+        {
+            "type": "text",
+            "id": "featured_blog_title",
+            "label": "Title",
+            "default": "#"
+        },
+        {
+            "type": "richtext",
+            "id": "featured_blog_desc",
+            "label": "Description"
+        },
+        {
+            "type": "checkbox",
+            "id": "featured_blog_button_enabled",
+            "label": "Would you like to enable the button on the featured blog?",
+            "default": false
+        },
+        {
+            "type": "text",
+            "id": "featured_blog_button_text",
+            "label": "Featured blog button Text",
+            "default": "#"
+        },
+        {
+            "type": "text",
+            "id": "featured_blog_button_url",
+            "label": "Featured blog button url",
+            "default": "#"
+        }
+    ]
+}
+{% endschema %}

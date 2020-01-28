@@ -1,0 +1,22 @@
+<header class="hidden-xs hidden-sm">   
+  <div class="container-fluid navbar">
+    <div class="row">
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <ul class="nav_list col-xs-12 col-sm-12 col-md-12 nav-justified">
+        {% for link in linklists.mega-menu.links %}
+          <li role="presentation" class="nav_li_styles dropdown target-nav-{{ link.title | handle}}">
+            <a href="{{ link.url }}" class="target-nav-link-{{ link.title | handle }}">{{ link.title }}</a>            
+            {% if link.links != blank %}
+              {% include 'nav-item-dropdown' %}
+            {% endif %} 
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</header>
+  
+  

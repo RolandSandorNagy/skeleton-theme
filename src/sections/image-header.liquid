@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+
+{% schema %}
+{
+    "name": "Image Header",
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "image_header_enabled",
+            "label": "Would you like to enable the image header?",
+            "default": false
+        },
+        {
+            "type": "image_picker",
+            "id": "image_header_image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "image_header_header_text",
+            "label": "Header text",
+            "default": "#"
+        },
+        {
+            "type": "text",
+            "id": "image_header_text",
+            "label": "Text",
+            "default": "#"
+        },
+        {
+            "type": "checkbox",
+            "id": "image_header_button_enabled",
+            "label": "Would you like to enable the button on the image header?",
+            "default": false
+        },
+        {
+            "type": "text",
+            "id": "image_header_button_text",
+            "label": "Image header button Text",
+            "default": "#"
+        },
+        {
+            "type": "text",
+            "id": "image_header_button_url",
+            "label": "Image header button url",
+            "default": "#"
+        }
+    ]
+}
+{% endschema %}

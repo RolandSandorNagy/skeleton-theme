@@ -1,0 +1,13 @@
+production:
+  password: 5c861c95c6a961a8eb9640ee32377808
+  theme_id: "39393656906"
+  store: pipers-farm-cullompton.myshopify.com
+  ignore_files:
+    - config/settings_data.json
+
+development:
+  password: 5c861c95c6a961a8eb9640ee32377808
+  theme_id: "80398123082"
+  store: pipers-farm-cullompton.myshopify.com
+  ignore_files:
+    - config/settings_data.json

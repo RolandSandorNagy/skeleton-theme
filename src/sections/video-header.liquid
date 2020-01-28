@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+
+
+{% schema %}
+{
+    "name": "Video Header",
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "video_header_enabled",
+            "label": "Would you like to enable the video header?",
+            "default": false
+        },
+        {
+            "type": "text",
+            "id": "video_header_url", 
+            "label": "URL of video background",
+            "default": "#"
+        },
+        {
+            "type": "image_picker",
+            "id": "video_header_fallback_image",
+            "label": "Fallback image"
+        },
+        {
+            "type": "text",
+            "id": "video_header_header_text",
+            "label": "Header text",
+            "default": "#"
+        },
+        {
+            "type": "text",
+            "id": "video_header_text",
+            "label": "Text",
+            "default": "#"
+        },
+        {
+            "type": "checkbox",
+            "id": "video_header_button_enabled",
+            "label": "Would you like to enable the button on the video header?",
+            "default": false
+        },
+        {
+            "type": "text",
+            "id": "video_header_button_text",
+            "label": "Video header button Text",
+            "default": "#"
+        },
+        {
+            "type": "text",
+            "id": "video_header_button_url",
+            "label": "Video header button url",
+            "default": "#"
+        }
+    ]
+}
+{% endschema %}

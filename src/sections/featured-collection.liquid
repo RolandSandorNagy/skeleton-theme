@@ -1,0 +1,56 @@
+
+
+
+
+
+
+
+
+
+{% schema %}
+{
+    "name": "Featured Collection",
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "featured_collection_enabled",
+            "label": "Would you like to enable the featured collection?",
+            "default": false
+        },
+        {
+            "type": "text",
+            "id": "featured_collection_title",
+            "label": "Title",
+            "default": "#"
+        },
+        {
+            "type": "richtext",
+            "id": "featured_collection_desc",
+            "label": "Description"
+        },
+        {
+            "type": "richtext",
+            "id": "featured_collection_collection",
+            "label": "Collection"
+        },
+        {
+            "type": "checkbox",
+            "id": "featured_collection_button_enabled",
+            "label": "Would you like to enable the button on the featured collection?",
+            "default": false
+        },
+        {
+            "type": "text",
+            "id": "featured_collection_button_text",
+            "label": "Featured collection button Text",
+            "default": "#"
+        },
+        {
+            "type": "text",
+            "id": "featured_collection_button_url",
+            "label": "Featured collection button url",
+            "default": "#"
+        }
+    ]
+}
+{% endschema %}

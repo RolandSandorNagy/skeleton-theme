@@ -1,0 +1,27 @@
+<ul class="dropdown-menu adjust-menu"> 
+  {% for child_link in link.links %}  
+    <li class="dropdown_links col-sm-3 left-menu-nav">
+      <a href= "{{ child_link.url }}" a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        {{ child_link.title }}
+      </a>
+    </li>
+  {% endfor %}
+  <div class="col-sm-12 border-nav-box">
+  </div>
+  <div class="col-sm-12 nav-padding-banner-bottom">
+    <div class="col-sm-6">
+      <p class="bottom_hdr">
+        <a href="https://pipersfarm.com/pages/subscription/">
+          Sign up for Free Delivery on your first order >
+        </a>
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <p class="bottom_hdr">
+        <a href="https://pipersfarm.com/pages/subscription/">
+          Slow Grown. Speedy Delivery
+        </a>
+      </p>
+    </div>
+  </div>
+</ul> 
